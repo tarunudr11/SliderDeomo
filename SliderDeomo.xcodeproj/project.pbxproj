@@ -7,6 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A4B5A5CA1BF5D1FC0035DD44 /* img_1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A4B5A5C41BF5D1FC0035DD44 /* img_1.jpg */; settings = {ASSET_TAGS = (); }; };
+		A4B5A5CB1BF5D1FC0035DD44 /* img_2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A4B5A5C51BF5D1FC0035DD44 /* img_2.jpg */; settings = {ASSET_TAGS = (); }; };
+		A4B5A5CC1BF5D1FC0035DD44 /* img_3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A4B5A5C61BF5D1FC0035DD44 /* img_3.jpg */; settings = {ASSET_TAGS = (); }; };
+		A4B5A5CD1BF5D1FC0035DD44 /* img_4.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A4B5A5C71BF5D1FC0035DD44 /* img_4.jpg */; settings = {ASSET_TAGS = (); }; };
+		A4B5A5CE1BF5D1FC0035DD44 /* img_5.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A4B5A5C81BF5D1FC0035DD44 /* img_5.jpg */; settings = {ASSET_TAGS = (); }; };
+		A4B5A5CF1BF5D1FC0035DD44 /* img_6.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A4B5A5C91BF5D1FC0035DD44 /* img_6.jpg */; settings = {ASSET_TAGS = (); }; };
+		A4E752D71BF060F7000C260B /* ImageScrollViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A4E752D61BF060F7000C260B /* ImageScrollViewController.m */; settings = {ASSET_TAGS = (); }; };
 		A4FC557F1BEB6C5300A374BB /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A4FC557E1BEB6C5300A374BB /* main.m */; };
 		A4FC55821BEB6C5400A374BB /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A4FC55811BEB6C5400A374BB /* AppDelegate.m */; };
 		A4FC55851BEB6C5400A374BB /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A4FC55841BEB6C5400A374BB /* ViewController.m */; };
@@ -35,6 +42,14 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		A4B5A5C41BF5D1FC0035DD44 /* img_1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = img_1.jpg; sourceTree = "<group>"; };
+		A4B5A5C51BF5D1FC0035DD44 /* img_2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = img_2.jpg; sourceTree = "<group>"; };
+		A4B5A5C61BF5D1FC0035DD44 /* img_3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = img_3.jpg; sourceTree = "<group>"; };
+		A4B5A5C71BF5D1FC0035DD44 /* img_4.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = img_4.jpg; sourceTree = "<group>"; };
+		A4B5A5C81BF5D1FC0035DD44 /* img_5.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = img_5.jpg; sourceTree = "<group>"; };
+		A4B5A5C91BF5D1FC0035DD44 /* img_6.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = img_6.jpg; sourceTree = "<group>"; };
+		A4E752D51BF060F7000C260B /* ImageScrollViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ImageScrollViewController.h; sourceTree = "<group>"; };
+		A4E752D61BF060F7000C260B /* ImageScrollViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ImageScrollViewController.m; sourceTree = "<group>"; };
 		A4FC557A1BEB6C5300A374BB /* SliderDeomo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SliderDeomo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A4FC557E1BEB6C5300A374BB /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		A4FC55801BEB6C5400A374BB /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -78,6 +93,19 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		A4DD85B41BF999110052752C /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				A4B5A5C41BF5D1FC0035DD44 /* img_1.jpg */,
+				A4B5A5C51BF5D1FC0035DD44 /* img_2.jpg */,
+				A4B5A5C61BF5D1FC0035DD44 /* img_3.jpg */,
+				A4B5A5C71BF5D1FC0035DD44 /* img_4.jpg */,
+				A4B5A5C81BF5D1FC0035DD44 /* img_5.jpg */,
+				A4B5A5C91BF5D1FC0035DD44 /* img_6.jpg */,
+			);
+			name = Images;
+			sourceTree = "<group>";
+		};
 		A4FC55711BEB6C5100A374BB = {
 			isa = PBXGroup;
 			children = (
@@ -101,10 +129,13 @@
 		A4FC557C1BEB6C5300A374BB /* SliderDeomo */ = {
 			isa = PBXGroup;
 			children = (
+				A4DD85B41BF999110052752C /* Images */,
 				A4FC55801BEB6C5400A374BB /* AppDelegate.h */,
 				A4FC55811BEB6C5400A374BB /* AppDelegate.m */,
 				A4FC55831BEB6C5400A374BB /* ViewController.h */,
 				A4FC55841BEB6C5400A374BB /* ViewController.m */,
+				A4E752D51BF060F7000C260B /* ImageScrollViewController.h */,
+				A4E752D61BF060F7000C260B /* ImageScrollViewController.m */,
 				A4FC55861BEB6C5400A374BB /* Main.storyboard */,
 				A4FC55891BEB6C5500A374BB /* Assets.xcassets */,
 				A4FC558B1BEB6C5500A374BB /* LaunchScreen.storyboard */,
@@ -244,8 +275,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				A4FC558D1BEB6C5500A374BB /* LaunchScreen.storyboard in Resources */,
+				A4B5A5CE1BF5D1FC0035DD44 /* img_5.jpg in Resources */,
+				A4B5A5CB1BF5D1FC0035DD44 /* img_2.jpg in Resources */,
+				A4B5A5CA1BF5D1FC0035DD44 /* img_1.jpg in Resources */,
 				A4FC558A1BEB6C5500A374BB /* Assets.xcassets in Resources */,
 				A4FC55881BEB6C5400A374BB /* Main.storyboard in Resources */,
+				A4B5A5CD1BF5D1FC0035DD44 /* img_4.jpg in Resources */,
+				A4B5A5CC1BF5D1FC0035DD44 /* img_3.jpg in Resources */,
+				A4B5A5CF1BF5D1FC0035DD44 /* img_6.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -273,6 +310,7 @@
 				A4FC55851BEB6C5400A374BB /* ViewController.m in Sources */,
 				A4FC55821BEB6C5400A374BB /* AppDelegate.m in Sources */,
 				A4FC557F1BEB6C5300A374BB /* main.m in Sources */,
+				A4E752D71BF060F7000C260B /* ImageScrollViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -411,6 +449,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = BrandAsset;
 				INFOPLIST_FILE = SliderDeomo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.balaji.SliderDeomo;
@@ -422,6 +461,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = BrandAsset;
 				INFOPLIST_FILE = SliderDeomo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.balaji.SliderDeomo;
@@ -496,6 +536,7 @@
 				A4FC55A91BEB6C5600A374BB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		A4FC55AA1BEB6C5700A374BB /* Build configuration list for PBXNativeTarget "SliderDeomoTests" */ = {
 			isa = XCConfigurationList;
@@ -504,6 +545,7 @@
 				A4FC55AC1BEB6C5700A374BB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		A4FC55AD1BEB6C5700A374BB /* Build configuration list for PBXNativeTarget "SliderDeomoUITests" */ = {
 			isa = XCConfigurationList;
@@ -512,6 +554,7 @@
 				A4FC55AF1BEB6C5700A374BB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
